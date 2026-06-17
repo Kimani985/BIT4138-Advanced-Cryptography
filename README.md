@@ -2,7 +2,8 @@
 
 ## Project Overview
 
-This repository contains the practical implementations and supporting files for the **BIT4138: Advanced Cryptography** course. The project demonstrates the application of classical and modern cryptographic techniques using Python and related tools.
+This repository contains practical implementations and creative enhancements developed for the BIT4138 Advanced Cryptography course. The project demonstrates the application of classical and modern cryptographic techniques using Python, including encryption algorithms, randomness analysis, symmetric cryptography, asymmetric cryptography, and secure communication simulations.
+
 
 ## Objectives
 
@@ -28,23 +29,37 @@ This repository contains the practical implementations and supporting files for 
 ADVANCED CRYPTOGRAPHY
 │
 ├── LOGBOOK
+│
 ├── WEEK 1
-│   └── test.py
+│   ├── test.py
+│   └── environment_checker.py
+│
 ├── WEEK 2
 │   ├── classical_cipher.py
-│   └── vigenere_cipher.py
+│   ├── vigenere_cipher.py
+│   └── crypto_toolkit.py
+│
 ├── WEEK 3
-│   └── randomness.py
+│   ├── randomness.py
+│   └── randomness_game.py
+│
 ├── WEEK 4
 │   ├── aes_encryption.py
 │   ├── secret.txt
 │   ├── encrypted.bin
-│   └── decrypted.txt
+│   ├── decrypted.txt
+│   ├── recovered.txt
+│   └── secure_file_locker.py
+│
 ├── WEEK 5
 │   ├── rsa_encryption.py
 │   ├── public.pem
-│   └── private.pem
-└── README.md
+│   ├── private.pem
+│   └── secure_messenger.py
+│
+├── README.md
+└── ADVANCED CRYPTOGRAPHY ASSIGNMENT.docx
+
 ```
 
 ## Weekly Activities
@@ -81,6 +96,31 @@ ADVANCED CRYPTOGRAPHY
 * Public key encryption
 * Private key decryption
 * Secure message transmission and validation
+s
+## Creative Enhancements
+
+To extend the weekly practical exercises, additional cryptographic applications were developed:
+
+### Week 1 – Environment Checker
+
+Automated verification tool for Python, Git, and OpenSSL installation.
+
+### Week 2 – Cryptography Toolkit
+
+Menu-driven application integrating Caesar and Vigenère cipher operations.
+
+### Week 3 – Randomness Challenge Game
+
+Interactive randomness analysis application using binary sequence generation and statistical evaluation.
+
+### Week 4 – Secure File Locker
+
+AES-based file protection utility supporting encryption and decryption of user-selected files.
+
+### Week 5 – Secure RSA Messenger
+
+Simulation of secure communication using RSA public-key encryption and private-key decryption.
+
 
 ## Learning Outcomes
 

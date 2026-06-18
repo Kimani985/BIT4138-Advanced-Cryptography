@@ -1,4 +1,4 @@
-# BIT4138 Advanced Cryptography Practical Logbook (Weeks 1–5)
+# BIT4138 Advanced Cryptography Practical Logbook (Weeks 1-7)
 
 ## Project Overview
 
@@ -32,16 +32,16 @@ ADVANCED CRYPTOGRAPHY
 │
 ├── WEEK 1
 │   ├── test.py
-│   └── environment_checker.py
+│   └── environment_checker.py          (Creative Task)
 │
 ├── WEEK 2
 │   ├── classical_cipher.py
 │   ├── vigenere_cipher.py
-│   └── crypto_toolkit.py
+│   └── crypto_toolkit.py               (Creative Task)
 │
 ├── WEEK 3
 │   ├── randomness.py
-│   └── randomness_game.py
+│   └── randomness_game.py              (Creative Task)
 │
 ├── WEEK 4
 │   ├── aes_encryption.py
@@ -49,14 +49,30 @@ ADVANCED CRYPTOGRAPHY
 │   ├── encrypted.bin
 │   ├── decrypted.txt
 │   ├── recovered.txt
-│   └── secure_file_locker.py
+│   └── secure_file_locker.py           (Creative Task)
 │
 ├── WEEK 5
 │   ├── rsa_encryption.py
-│   ├── public.pem
 │   ├── private.pem
-│   └── secure_messenger.py
+│   ├── public.pem
+│   └── secure_messenger.py             (Creative Task)
 │
+├── WEEK 6
+│   ├── manual_spn_simulation.py
+│   ├── sbox_analysis.py
+│   ├── feistel_vs_spn.py
+│   ├── spn_cipher.py
+│   ├── spn_visualizer.py               (Creative Task 1)
+│   └── avalanche_analyzer.py           (Creative Task 2)
+│
+├── WEEK 7
+│   ├── difference_analysis.py
+│   ├── frequency_analysis.py
+│   ├── probability_analysis.py
+│   ├── differential_cryptanalysis.py
+│   └── cryptanalysis_toolkit.py        (Creative Task)
+│
+├── .gitignore
 ├── README.md
 └── ADVANCED CRYPTOGRAPHY ASSIGNMENT.docx
 
@@ -96,7 +112,21 @@ ADVANCED CRYPTOGRAPHY
 * Public key encryption
 * Private key decryption
 * Secure message transmission and validation
-s
+
+### Week 6
+* Manual SPN Simulation
+* S-Box Analysis
+* Feistel vs SPN Comparison
+* Simple SPN Implementation
+* SPN Visualizer (Creative Task)
+* Avalanche Effect Analyzer (Creative Task)
+
+### Week 7
+* Difference Analysis
+* Frequency Analysis
+* Probability Analysis
+* Differential Cryptanalysis Simulation
+* Cryptanalysis Toolkit (Creative Task)
 ## Creative Enhancements
 
 To extend the weekly practical exercises, additional cryptographic applications were developed:
@@ -120,6 +150,18 @@ AES-based file protection utility supporting encryption and decryption of user-s
 ### Week 5 – Secure RSA Messenger
 
 Simulation of secure communication using RSA public-key encryption and private-key decryption.
+
+### Week 6 – SPN Visualizer
+
+Visualization tool demonstrating the step-by-step transformation of plaintext through substitution and permutation operations in a Substitution-Permutation Network (SPN).
+
+### Week 6 – Avalanche Effect Analyzer
+
+Analysis tool demonstrating how small changes in input can affect cryptographic outputs, illustrating the avalanche effect principle.
+
+### Week 7 – Cryptanalysis Toolkit
+
+Integrated toolkit providing difference analysis, frequency analysis, and probability analysis for studying basic cryptanalysis techniques.
 
 
 ## Learning Outcomes
